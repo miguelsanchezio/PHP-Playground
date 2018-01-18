@@ -25,6 +25,14 @@
 
  */
 
+ echo floor(32.1);
+ echo "<br>";
+
+ echo strlen('This is a string');
+ echo "<br>";
+
+ echo max([12, 31, 412]);
+ echo "<br>";
 	
 ?>
 
