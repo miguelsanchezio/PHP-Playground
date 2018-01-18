@@ -10,7 +10,17 @@
 
 <?php
 
+$number = array('yessi', 'anna', 'jenna');
 
+print_r($number);
+
+// echo $number[2] . '<br>';
+
+$names = array('first_name' => 'Miguel', 'last_name' => 'Sanchez');
+
+// print_r($names);
+
+echo $names['first_name'] . $names['last_name'];
 
 ?>
     

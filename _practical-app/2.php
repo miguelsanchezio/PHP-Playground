@@ -27,7 +27,13 @@
 
 		 
 			 */
+$number1 = 10;
+$number2 = 20;
 
+echo $number1 + $number2;
+
+$array1 = array('Miguel', 'Steph');
+$array2 = array('Starboy' => 'Miguel', 'Cardi' => 'Steph');
 		
 
 
