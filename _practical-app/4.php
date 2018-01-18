@@ -23,6 +23,14 @@
 
  */
 
+ function addNumbers($num1, $num2) {
+     $sum = $num1 + $num2;
+     return $sum;
+ }
+
+ $aSum = addNumbers(1, 2);
+
+ echo $aSum;
 	
 ?>
 
