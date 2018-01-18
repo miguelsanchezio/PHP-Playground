@@ -25,9 +25,40 @@
 
  */
 
+if(1 > 2) {
+    echo "PHPs";
+} else if(1 < 2) {
+    echo "I love PHP <br>";
+}
+
+for($i = 1; $i <= 10; $i++) {
+    echo $i . "<br>";
+}
+
+$word = "lol";
+
+switch($word) {
+    case word:
+    echo "Ayy";
+    break;
+    case word1:
+    echo "Ayy";
+    break;
+    case word2:
+    echo "Ayy";
+    break;
+    case word3:
+    echo "Ayy";
+    break;
+    case word4:
+    echo "Ayy";
+    break;
+    default:
+    echo "Ayy lmao";
+    break;
+}
 	
 ?>
-
 
 
 
