@@ -21,8 +21,20 @@
 
  */
 
+if(isset($_POST['submit'])) {
+    $val = $_POST['value'];
+
+    if(strlen($val) > 1) {
+        echo $val;
+    }
+}
 	
 ?>
+
+<form action="6.php" method="post">
+    <input type="text" placeholder="value" name="value">
+    <input type="submit" name='submit'>
+</form>
 
 
 </article><!--MAIN CONTENT-->
